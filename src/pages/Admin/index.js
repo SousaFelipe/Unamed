@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Button from '../../atoms/Button'
+
 
 
 export default function Admin () {
@@ -7,7 +9,7 @@ export default function Admin () {
 
 	return (
 		<main>
-			Hello World
+			<Button>Cadastrar</Button>
 		</main>
 	)
 }
